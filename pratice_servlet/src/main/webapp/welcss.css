@@ -1,0 +1,56 @@
+.banner {
+    background: url(img/welcome.jpg);
+    background-repeat: no-repeat;
+    min-height: 840px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.text-bg {
+    text-align: center;
+    background-color: #000;
+    opacity: .5;
+}
+
+.text-bg h1 {
+    text-transform: uppercase;
+    color: #fffcfc;
+    font-size: 110px;
+    line-height: 120px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-bg p {
+    font-size: 17px;
+    color: #fff;
+    line-height: 28px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.text-bg a {
+    font-size: 17px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    padding: 11px 0px;
+    width: 100%;
+    max-width: 230px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    border: #f4cb1e solid 4px;
+    transition: ease-in all 0.5s;
+}
+
+.text-bg a:hover {
+    background-color: #13110e;
+    color: #fff;
+    transition: ease-in all 0.5s;
+}
